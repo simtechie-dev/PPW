@@ -119,10 +119,14 @@ const sections = {
         </div>
         <div class="card">
           <ul class="contact-list">
-            <li><strong>Email</strong><span>simgraffix@gmail.com</span></li>
+            <li><strong>Email</strong><span><a href="mailto:simeonilu01@gmail.com">simeonilu01@gmail.com</a> / <a href="mailto:simgraffix@gmail.com">simgraffix@gmail.com</a></span></li>
+            <li><strong>Phone</strong><span><a href="tel:+2349038868682">+2349038868682</a> / <a href="tel:+2349013806687">+2349013806687</a></span></li>
             <li><strong>Location</strong><span>Remote, open to global collaborations</span></li>
             <li><strong>Availability</strong><span>Freelance projects, partnerships, mentorship</span></li>
           </ul>
+          <div class="social-links" style="margin-top: 24px; display: flex; gap: 16px;">
+            <a href="https://www.youtube.com/@Simtechjr" target="_blank" rel="noopener noreferrer" class="social-link">YouTube</a>
+          </div>
         </div>
       </section>
     `,

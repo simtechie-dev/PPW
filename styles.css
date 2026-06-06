@@ -308,6 +308,35 @@ button {
   color: var(--text);
 }
 
+.contact-list a,
+.social-link {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 180ms ease;
+}
+
+.contact-list a:hover,
+.social-link:hover {
+  color: var(--accent-2);
+  text-decoration: underline;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 16px;
+  border: 1px solid rgba(56, 189, 248, 0.25);
+  border-radius: 999px;
+  background: rgba(56, 189, 248, 0.08);
+  font-size: 0.95rem;
+  transition: border-color 180ms ease, background 180ms ease;
+}
+
+.social-link:hover {
+  border-color: rgba(56, 189, 248, 0.4);
+  background: rgba(56, 189, 248, 0.15);
+}
+
 .footer {
   margin-top: 22px;
   color: var(--muted);
